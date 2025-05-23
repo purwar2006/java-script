@@ -21,10 +21,11 @@
 let num=parseInt(prompt("Enter the no."))
 let=lastdigit=Math.abs(num % 10)
 document.write("the last digit of a number is " + lastdigit + "<br>")
+
 //input from user then print first digit of a number
 let firstdigit=num.toString()[0]
-document.write("the first digit of a number "+ firstdigit )
-document.write("<br>")
+document.write("the first digit of a number " + firstdigit + "<br>")
+
 //sum of both number
 sum = lastdigit + firstdigit
 document.write("the sum of both number is " + sum)
